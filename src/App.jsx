@@ -1,10 +1,7 @@
-import './App.css'
-import Customizable from "./Customizable"
+import "./App.css";
+import Parent from "./Parent";
 function App() {
-
-  return (
-  < Customizable/>
-  )
+  return <Parent />;
 }
 
-export default App
+export default App;
